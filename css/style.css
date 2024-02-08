@@ -1,0 +1,545 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+  
+    font-family: "Orbitron", sans-serif;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 40px;
+}
+.nav-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav-a a{
+    width: 56px;
+    height: 26px;
+    transition: 0.4s;
+
+}
+.nav-a a:hover{
+    color:#FAC422;
+}
+.nav-but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.dark  {
+    background: #000000E0;
+  }
+  
+  .dark  * {
+    color: white !important;
+  }
+  #light-dark{
+    border: none;
+    background-color: #57B8FF ;
+   
+  }
+  svg{
+    fill: white;
+    width: 48px;
+    height: 48px;
+    background-color:#57B8FF;
+  }
+  .but button{
+    width: 178px;
+height: 62px;
+left: 72.02px;
+background-color: #57B8FF;
+border-color: #FFF;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+.nav-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.navs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navs-2 h3{
+    font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+    width: 203px;
+    height: 16px;
+    color:#57B8FF;
+}
+.nav-22{
+    font-family: Orbitron;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 86px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 660px;
+color: #FFF;
+
+}
+.nav-2{
+    font-family: Orbitron;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 86px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+header{
+    background: linear-gradient(to right, #000 50%,  #57B8FF 50% );
+}
+.navs-3 p{
+    font-family: Orbitron;
+font-size: 19px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #999999;
+width: 615px;
+height: 56px;
+margin-top: -30px;
+}
+.navs-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.butt1 button{
+    width: 203px;
+height: 70px;
+background-color:#000;
+border: none;
+transition: all 0.4s;
+}
+.butt1 button:hover{
+    background-color: #57B8FF;
+}
+.mien{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    background: #FDD04A;
+
+}
+.img2-p{
+    font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+width: 576px;
+height: 52px;
+top: 100px;
+left: 10px;
+}
+.img3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.all-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    background-image: url(../img/beg.png);
+
+}
+.cod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+
+}
+.cods{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cods .words{
+    font-family: Orbitron;
+font-size: 10px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+width: 203px;
+height: 16px;
+top: 5.58px;
+left: 304px;
+color: #57B8FF;
+}
+.cods2 h1{
+    font-family: Orbitron;
+font-size: 54px;
+font-weight: 400;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: center;
+width: 716px;
+height: 148px;
+top: 43.58px;
+left: 27px;
+color: #FFF;
+
+}
+.cods3 p{
+    font-family: Orbitron;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+width: 698px;
+height: 64px;
+top: 230.58px;
+left: 36px;
+color: #DFDFDFCC;
+}
+.cods-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cods-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.overal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.columbss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1240px;
+
+}
+.columb{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.columbs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.words5 h3{
+    font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+width: 203px;
+height: 16px;
+top: 5.58px;
+left: 40px;
+color:  #57B8FF;
+}
+.columbs2 h1{
+    font-family: Orbitron;
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: left;
+width: 684px;
+height: 148px;
+top: 43.58px;
+color: #FFF;
+}
+.columbs3{
+    font-family: Orbitron;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+width: 721px;
+height: 120px;
+top: 229.58px;
+color:  #DFDFDFCC;
+}
+.columbs4 button{
+    background-color:#000;
+    border: none;
+    transition: all 0.4s;
+    width: 203px;
+height: 70px;
+top: 403.58px;
+}
+.columbs4 button:hover{
+ background-color: #57B8FF;  
+}
+.qator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.qator-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: url(../img/beg4.png);
+    width: 480px;
+    height: 732px;
+}
+.qator-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: url(../img/beg5.png);
+    width: 480px;
+    height: 732px;
+
+}
+.qator-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: url(../img/beg6.png);
+    width: 480px;
+    height: 732px;
+
+}
+.words_1 h2{
+    font-family: Orbitron;
+font-size: 48px;
+font-weight: 400;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+width: 336px;
+height: 58px;
+top: 126.39px;
+left: 72px;
+color:  #FFFFFF;
+}
+.weeek{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 20px;
+    background-color: #000;
+    width: 1640px;
+}
+.weeks{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.weeks-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.weeks-word{
+    font-family: Orbitron;
+font-size: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:  #57B8FF;
+}
+.weeks-2{
+    font-family: Orbitron;
+font-size: 54px;
+font-weight: 400;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: left;
+width: 841px;
+height: 150px;
+top: 44.39px;
+color: #FFF;
+}
+.weeks-4{
+    font-family: Orbitron;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color:  #57B8FF;
+}
+.weeks-5{
+    font-family: Orbitron;
+font-size: 32px;
+letter-spacing: 0em;
+text-align: left;
+width: 830px;
+height: 120px;
+top: 610.39px;
+color: #FFF;
+}
+.week-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 180px;
+}
+.weekss button{
+    width: 175px;
+height: 70px;
+top: 126.39px;
+left: 1145px;
+margin-left: 500px;
+background-color:#000;
+border: none;
+transition: 0.4s;
+}
+.weekss button:hover{
+    background:  #57B8FF;
+}
+.mouns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mouns-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.mons-word{
+    font-family: Orbitron;
+font-size: 10px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+width: 116px;
+height: 16px;
+top: 219.39px;
+color:  #57B8FF;
+}
+.mons-words{
+    font-family: Orbitron;
+font-size: 23px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+width: 281px;
+height: 68px;
+top: 255.39px;
+color: #FFF;
+}
+.monse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+    background-image: url(../img/beg10.png);
+}
+.box_shadov{
+    font-family: Orbitron;
+font-size: 30px;
+font-weight: 400;
+line-height: 82px;
+letter-spacing: 0em;
+text-align: center;
+width: 506px;
+height: 134px;
+top: -3.61px;
+left: 50.5px;
+color: #000;
+}
+.boxx p{
+    font-family: Orbitron;
+font-size: 25px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 20px;
+
+}
